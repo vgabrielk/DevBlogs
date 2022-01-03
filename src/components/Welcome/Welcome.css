@@ -1,0 +1,33 @@
+.welcome 
+{
+    height: 50%;
+    background-color: #00C0F4;
+    width: 100%;
+    margin-top: 6rem;
+    border-radius: 12px;
+    padding: 2rem 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container__fig 
+{
+    display: flex;
+    justify-content: end;
+}
+.fig 
+{
+    width: 160px;
+
+}
+@media(max-width: 575px )
+{
+    .welcome__text h3 
+    {
+        text-align: center;
+    }
+    .container__fig
+    {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,18 @@
+.new 
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../../../assets/Retanglle.png);
+    background-size: cover;
+    height: 50vh;
+    border-radius: 12px;
+    margin-top: 1rem;
+    position: relative;
+}
+.new__text 
+{
+    width: 70%;
+    font-weight: 600;
+}

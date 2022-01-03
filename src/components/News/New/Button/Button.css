@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+.button 
+{
+    background: #FA01E1;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Slackey', cursive;
+    font-size: 12px;
+}
+.button:hover 
+{
+    background: #fa0160;
+    transition: .3s ease-in;
+}

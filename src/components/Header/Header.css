@@ -1,0 +1,72 @@
+p 
+{
+    margin-bottom: 0;
+}
+.header 
+{
+    background-color: #00C0F4;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header__container
+{
+    background-color: #00C0F4;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__right
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.header .logo 
+{
+    width: 80px;
+}
+.header-login__user 
+{
+    font-size: .5rem;
+    margin-left: 1rem;
+    margin-right: .2rem;
+}
+.drop 
+{
+    height: 100px;
+    width: 50px;
+    background: yellow;
+    position: absolute;
+    transform: translate(-39px, 60px);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    animation: fade .6s ease-in;
+}
+.drop i 
+{
+    margin: .2rem;
+    color: #fff;
+}
+
+
+@keyframes fade 
+{
+    from
+    {
+        opacity: 0;
+    }
+    to 
+    {
+        opacity: 1;
+    }
+}

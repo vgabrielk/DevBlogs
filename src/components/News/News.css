@@ -1,0 +1,24 @@
+.news 
+{
+    margin-top: 3rem;
+    width: 100%;
+}
+.button-load{
+    background: #00C0F4;
+    height: 30px;
+    width: 130px;
+    border: none;
+    border-radius: 57px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-top: 1rem;
+    padding: 5px;
+    text-align: center;
+
+}
+.button-load:hover 
+{
+    background: #00a7f4;
+    transition: .3s ease-in;
+}
